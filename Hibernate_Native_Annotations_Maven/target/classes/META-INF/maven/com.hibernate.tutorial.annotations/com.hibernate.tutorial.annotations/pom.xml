@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.hibernate.tutorial.annotations</groupId>
+	<artifactId>com.hibernate.tutorial.annotations</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>com.hibernate.tutorial.annotations</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.0.Final</version>
+			<!-- <version>4.3.11.Final</version> -->
+		</dependency>
+
+		<!-- Hibernate uses jboss-logging for logging, for the tutorials we will use the sl4fj-simple backend -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+
+		<!-- The tutorials use JUnit test cases to illustrate usage -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.4</version>
+			<scope>system</scope>
+			<systemPath>C:\Java\ojdbc_Jar\ojdbc6.jar</systemPath>
+		</dependency>
+
+	</dependencies>
+</project>
