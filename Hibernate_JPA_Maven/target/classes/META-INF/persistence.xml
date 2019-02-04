@@ -22,6 +22,10 @@
             <property name="javax.persistence.jdbc.user" value="course" />
             <property name="javax.persistence.jdbc.password" value="pwdjava" />
 
+			<property name="hibernate.generate_statistics" value="true" />
+			
+			<property name="hibernate.cache.use_query_cache" value="true" />
+			
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.hbm2ddl.auto" value="create" />
         </properties>
@@ -29,3 +33,4 @@
     </persistence-unit>
 
 </persistence>
+

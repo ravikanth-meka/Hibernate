@@ -13,8 +13,8 @@ public class HibernateUtil {
 	  
 	/**
 	 * <version>4.3.11.Final</version>
-	 * This method works with version 4.
-	 *  In version 4, there is not MetadataSources
+	 * <Ravi:> This method works with version 4.
+	 * In version 4, there is not MetadataSources
 	 */
 	   private static SessionFactory buildSessionFactoryWithVerionFour()
 	   {
@@ -39,7 +39,7 @@ public class HibernateUtil {
 	   
 	   /**
 		 * <version>5.4.0.Final</version>
-		 * This method works with version 5 and above.
+		 * <Ravi:> This method works with version 5 and above.
 		 *  In version 4, there is not MetadataSources
 		 */
 	   private static SessionFactory buildSessionFactoryWithVerionFive()
