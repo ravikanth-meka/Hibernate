@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "spring.course",
+      "type": "com.example.demo.OracleConfig",
+      "sourceType": "com.example.demo.OracleConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
